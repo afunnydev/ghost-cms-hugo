@@ -1,6 +1,6 @@
-baseURL = "/"
+baseURL = "https://www.myawesomesite.com"
 languageCode = "en-gb"
-title = "{TITLE}"
+title = "My Awesome Site"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -30,4 +30,9 @@ mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
 notAlternative = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
